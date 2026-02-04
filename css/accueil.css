@@ -1,0 +1,15 @@
+body {
+    background-image: url("https://th.bing.com/th/id/R.991926449eaca8ba132f570635930476?rik=Pk%2fGve37Jp08Mw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f3%2f3%2ff%2f200682.jpg&ehk=FbEMQGLfgKMRbnIMmNj23eseCPkMlqUkPTkQoODJ%2b7Q%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+}
+.box {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: fit-content;
+}
+.page {
+    min-height: 100vh;
+    padding: 20px;
+}
