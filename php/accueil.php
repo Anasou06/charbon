@@ -1,4 +1,6 @@
-<?php include '../includes/header.php'; ?>
+<?php include '../includes/header.php'; 
+include "./config.php";
+?>
 
 <div class="page">
 <h1>Ceci est un site qui vous permets de prendre un rendez-vous avec Apoutchou Eipstein !</h1>

@@ -10,6 +10,5 @@
 <body>
 
 <header>
-    <?php include "../includes/config.php"?>
 </header>
 <main>

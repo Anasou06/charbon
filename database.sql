@@ -5,3 +5,11 @@ CREATE TABLE users (
     username VARCHAR(50) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL
 ) ENGINE=InnoDB;
+
+CREATE TABLE reservations (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nom VARCHAR(100),
+    email VARCHAR(100),
+    date_reservation DATE,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
