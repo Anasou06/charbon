@@ -8,8 +8,9 @@ CREATE TABLE users (
 
 CREATE TABLE reservations (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    nom VARCHAR(100),
-    email VARCHAR(100),
-    date_reservation DATE,
+    nom VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    date_reservation DATE NOT NULL,
+    places INT NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
