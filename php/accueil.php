@@ -1,6 +1,7 @@
 <?php 
+define('PLACES_MAX', 70);
 include '../includes/header.php'; 
-include "./config.php";
+include "../includes/config.php";
 
 $places_restantes = PLACES_MAX;
 
@@ -24,13 +25,13 @@ if (!empty($_GET['date'])) {
 <?php endif; ?>
 
 <div class="page">
-<h1>Ceci est un site qui vous permets de prendre un rendez-vous avec Apoutchou Eipstein !</h1>
+<h1>Bienvenue dans le Freddy Fazbear's Restaurant ! </h1>
 <div class="box">
     <a>
         <img src = "../image/chica-rizz-rizz.gif" alt="GIF">
     </a>
     <a>
-        <img src = "../image/freddy-mewing.gif" alt="GIF">
+        <img src = "../image/chica-rizz-rizz.gif" alt="GIF">
     </a>
 </div>
 </div>
